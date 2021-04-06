@@ -5,7 +5,7 @@
     <EditText
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         android:hint="실수1"
         android:layout_marginTop="20dp"
         android:id="@+id/edit1"/>
@@ -13,7 +13,7 @@
     <EditText
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         android:hint="실수2"
         android:layout_marginTop="20dp"
         android:id="@+id/edit2"/>
