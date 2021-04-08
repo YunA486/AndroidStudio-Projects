@@ -26,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
         edit2 = findViewById(R.id.edit2);
         textResult = findViewById(R.id.t1);
 
-        btnPlus.setOnTouchListener(btnListener);
-        btnMinus.setOnTouchListener(btnListener);
-        btnMult.setOnTouchListener(btnListener);
-        btnDiv.setOnTouchListener(btnListener);
+        btnPlus.setOnClickListener(btnListener);
+        btnMinus.setOnClickListener(btnListener);
+        btnMult.setOnClickListener(btnListener);
+        btnDiv.setOnClickListener(btnListener);
     }
 
-    View.OnTouchListener btnListener = new View.OnTouchListener() {
+    View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
-        public boolean onTouch(View v, MotionEvent motionEvent) {
+        public void onClick(View v) {
             String strEdit1 = edit1.getText().toString();
             String strEdit2 = edit2.getText().toString();
             int num1 = Integer.parseInt(strEdit1);
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             }
             textResult.setText(R.string.text_result);
             textResult.append(result + "");
-            return false;
         }
     };
+
 }
