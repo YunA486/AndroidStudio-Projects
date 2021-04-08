@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "계산에 필요한 값을 입력하지 않았습니다.", Toast.LENGTH_SHORT).show();
                 return;
             }
-            int num1 = Integer.parseInt(strEdit1);
-            int num2 = Integer.parseInt(strEdit2);
-            int result = 0;
+            double num1 = Double.parseDouble(strEdit1);
+            double num2 = Double.parseDouble(strEdit2);
+            double result = 0;
 
             switch(v.getId()){
                 case R.id.btn1:
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
             textResult.setText(R.string.text_result);
-            textResult.append(result + "");
+            textResult.append(String.format("%.2f", result) + "");
         }
     };
 
