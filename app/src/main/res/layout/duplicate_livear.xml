@@ -10,7 +10,7 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,16 +40,15 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_weight="1"
         android:background="#0000ff"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_marginBottom="100dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
             android:text="@string/btn5"/>
         <Button
             android:layout_width="wrap_content"
