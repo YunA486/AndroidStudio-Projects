@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project10_1">
         <activity android:name=".ThirdActivity"></activity>
-        <activity android:name=".SecondsAcivity" />
+        <activity android:name=".SecondsAcivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
