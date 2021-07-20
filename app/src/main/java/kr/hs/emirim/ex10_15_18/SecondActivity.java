@@ -45,6 +45,7 @@ public class SecondActivity extends AppCompatActivity {
             mainIntent.putExtra("result", result);
             setResult(RESULT_OK, mainIntent);
             finish();
+
         }
     };
 }
