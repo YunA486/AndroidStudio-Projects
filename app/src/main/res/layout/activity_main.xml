@@ -44,7 +44,7 @@
             android:text="@string/btn_divide"/>
     </RadioGroup>
     <Button
-        android:id="@+id/btn_calc"
+        android:id="@+id/btn_plus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_calc"/>
