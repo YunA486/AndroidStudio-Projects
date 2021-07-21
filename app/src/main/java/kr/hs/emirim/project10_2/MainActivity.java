@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
+// Change ViewFLipper
 
 public class MainActivity extends AppCompatActivity {
     String[] imgNames = {"masterpiece1", "masterpiece2", "masterpiece3", "masterpiece4", "masterpiece5", "masterpiece6", "masterpiece7", "masterpiece8", "masterpiece9"};
