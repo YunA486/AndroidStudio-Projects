@@ -5,6 +5,6 @@
     <string name="item_title_bg1">배경색(빨강)</string>
     <string name="item_title_bg2">배경색(노랑)</string>
     <string name="item_title_bg3">배경색(파랑)</string>
-    <string name="item_title_rotate">버튼 45도 회전</string>
+    <string name="item_title_rotate">버튼 90도 회전</string>
     <string name="item_title_zoom">버튼 2배 확대</string>
 </resources>
