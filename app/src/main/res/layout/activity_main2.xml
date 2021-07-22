@@ -16,9 +16,11 @@
     <EditText
         android:id="@+id/edit_angle"
         android:layout_toRightOf="@id/text_angle"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <ImageView
+        android:id="@+id/imgv"
         android:layout_below="@+id/edit_angle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
