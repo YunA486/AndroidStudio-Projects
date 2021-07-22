@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_pic_rotate"
+        android:title="@string/item_pic_rotate"/>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_img01"
+            android:title="@string/item_place_1"
+            android:checked="true"/>
+        <item
+            android:id="@+id/item_img02"
+            android:title="@string/item_place_2"/>
+        <item
+            android:id="@+id/item_img03"
+            android:title="@string/item_place_3"/>
+
+
+    </group>
+
+</menu>
