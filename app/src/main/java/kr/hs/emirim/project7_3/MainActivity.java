@@ -12,7 +12,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    TextView textName, textEmail, textToast;
+    EditText editMainName, editMainEmail;
+    TextView textToast;
     View dialogV, toastV;
     EditText editName, editEmail;
 
@@ -21,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textName = findViewById(R.id.user_name);
-        textEmail = findViewById(R.id.user_email);
+        editMainName = findViewById(R.id.user_name);
+        editMainEmail = findViewById(R.id.user_email);
         Button btn_input = findViewById(R.id.btn_input);
 
         btn_input.setOnClickListener(btnListener);
@@ -41,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialogInterface, int i) {
                     editName = dialogV.findViewById(R.id.dialog_edit_name);
                     editEmail = dialogV.findViewById(R.id.dialog_edit_email);
-                    textName.setText(editName.getText().toString());
-                    textEmail.setText(editEmail.getText().toString());
+                    editMainName.setText(editName.getText().toString());
+                    editMainEmail.setText(editEmail.getText().toString());
                 }
             });
             dialog.setNegativeButton("취소", new DialogInterface.OnClickListener() {
