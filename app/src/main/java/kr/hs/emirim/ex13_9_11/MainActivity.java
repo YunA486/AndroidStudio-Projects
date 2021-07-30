@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Thread thread1 = new Thread(){
+                new Thread(){
                     @Override
                     public void run() {
                         for (int i = seek1.getProgress(); i < 100; i+=2){
@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
                             SystemClock.sleep(100);
                         }
                     }
-                };
+                }.start();
+
                 Thread thread2 = new Thread(){
                     @Override
                     public void run() {
