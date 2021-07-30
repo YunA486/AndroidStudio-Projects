@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         btnStop = findViewById(R.id.btn_stop);
         textMusic = findViewById(R.id.text_music);
         proBar = findViewById(R.id.progress);
+        btnPause = findViewById(R.id.btn_pause);
 
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
