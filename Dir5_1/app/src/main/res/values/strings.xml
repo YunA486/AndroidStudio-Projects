@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dir5_1</string>
+    <string name="btn1">버튼 1</string>
+    <string name="btn2">버튼 2</string>
+    <string name="btn3">버튼 3</string>
+    <string name="btn4">버튼 4</string>
+    <string name="btn5">버튼 5</string>
+    <string name="btn6">버튼 6</string>
+    <string name="text1">글자 1</string>
+    <string name="text2">글자 2</string>
+    <string name="text3">글자 2</string>
+</resources>
