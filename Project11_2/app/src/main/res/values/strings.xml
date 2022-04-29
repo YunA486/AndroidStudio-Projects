@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project11_2</string>
+    <string name="title01">Aladdin</string>
+    <string name="title02">Breaking Dawn</string>
+    <string name="title03">Eclipse</string>
+    <string name="title04">La La Land</string>
+    <string name="title05">Maleficent</string>
+    <string name="title06">Midnight</string>
+    <string name="title07">Notebook</string>
+    <string name="title08">The Greatest Showman</string>
+    <string name="title09">Titanic</string>
+    <string name="title10">Twilight</string>
+</resources>
