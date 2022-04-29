@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".MainActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="실수1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit1"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="실수2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit2"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn1"
+        android:padding="20dp"
+        android:text="@string/btn_add"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn2"
+        android:padding="20dp"
+        android:text="@string/btn_sub"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn3"
+        android:padding="20dp"
+        android:text="@string/btn_multi"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn4"
+        android:padding="20dp"
+        android:text="@string/btn_div"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn5"
+        android:padding="20dp"
+        android:text="@string/btn_mod"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/t1"
+        android:text="@string/text_result"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:textSize="30sp"/>
+
+</LinearLayout>
