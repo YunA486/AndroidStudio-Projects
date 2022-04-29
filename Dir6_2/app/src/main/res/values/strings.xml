@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dir6_2</string>
+    <string name="btn_start">사진 보기 시작</string>
+    <string name="btn_stop">사진 보기 정지</string>
+</resources>
