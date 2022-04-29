@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ex10_15_18</string>
+    <string name="btn_plus">더하기</string>
+    <string name="btn_minus">빼기</string>
+    <string name="btn_multi">곱하기</string>
+    <string name="btn_divide">나누기</string>
+    <string name="btn_calc">계산하기</string>
+    <string name="btn_back">돌아가기</string>
+    <string name="title_main">MainActivity</string>
+    <string name="title_second">SecondActivity</string>
+</resources>
